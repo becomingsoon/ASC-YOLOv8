@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ultralytics-asc-yolov8"
+version = "8.3.32"
+description = "ASC-YOLOv8: lightweight oriented book-spine detector built on Ultralytics YOLOv8 (Mix-ADown + SCCA)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "AGPL-3.0" }
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy<2.0.0",
+    "opencv-python>=4.6.0",
+    "pillow",
+    "pyyaml",
+    "requests",
+    "scipy",
+    "tqdm",
+    "matplotlib",
+    "pandas",
+    "psutil",
+    "py-cpuinfo",
+    "seaborn",
+]
+
+[tool.setuptools.packages.find]
+include = ["ultralytics*"]

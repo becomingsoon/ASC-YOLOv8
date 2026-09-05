@@ -1,0 +1,13 @@
+﻿ASC-YOLOv8 (modified YOLOv8-OBB for book spine detection)
+Copyright (c) 2026 Nanye Wu, Weihui Zhang, Xinyue Lou
+
+This repository is a modification of Ultralytics YOLOv8
+(https://github.com/ultralytics/ultralytics), version 8.3.32,
+which is licensed under the GNU Affero General Public License v3.0
+(https://github.com/ultralytics/ultralytics/blob/main/LICENSE).
+
+The additions in this work (the Mix-ADown downsampling module and the
+Spatial-Constrained Coordinate Attention module, SCCA / GC_CoordAtt)
+are distributed under the same AGPL-3.0 license.
+
+Full license text: https://www.gnu.org/licenses/agpl-3.0.html

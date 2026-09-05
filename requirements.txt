@@ -1,0 +1,17 @@
+﻿# Install the modified ultralytics fork and dependencies from the repo root:
+#   pip install -e .
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+opencv-python>=4.6.0
+pillow
+pyyaml
+requests
+scipy
+tqdm
+matplotlib
+pandas
+psutil
+py-cpuinfo
+seaborn
+
